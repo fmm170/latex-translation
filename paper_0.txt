@@ -1,0 +1,151 @@
+[1.0]
+
+[2.0]{Exploring nonlinear topological states of matter with exciton-polaritons: Edge solitons in kagome lattice}
+
+[2.1] 
+[2.2]
+[2.3]
+
+[2.4] 
+[2.5]
+[2.6]
+
+[2.7] 
+[2.8]
+[2.9]
+
+[2.10] 
+[2.11]
+[2.12]
+
+[2.13] 
+[2.14]
+[2.15]
+
+[2.16]
+
+[2.17]
+Matter in nontrivial topological phase possesses unique properties, such as support of unidirectional edge modes on its interface. It is the existence of such modes which is responsible for the wonderful properties of a topological insulator -- material which is insulating in the bulk but conducting on its surface, along with many of its recently proposed photonic and polaritonic analogues. We show that exciton-polariton fluid in a nontrivial topological phase in kagome lattice, supports nonlinear excitations in the form of solitons built up from wavepackets of topological edge modes -- topological edge solitons. Our theoretical and numerical results indicate the appearance of bright, dark and grey solitons dwelling in the vicinity of the boundary of a lattice strip. In a parabolic region of the dispersion the solitons can be described by envelope functions satisfying the nonlinear Schr[2.18]"odinger equation. 
+Upon collision, multiple topological edge solitons emerge undistorted, which proves them to be true solitons as opposed to solitary waves for which such requirement is waived. Importantly, kagome lattice supports topological edge mode with zero group velocity unlike other types of truncated lattices. This gives a finer control over soliton velocity which can take both positive and negative values depending on the choice of forming it topological edge modes.
+[2.19]
+
+
+[2.20]
+[2.21]
+[2.22]
+
+[2.23]
+{[2.24][2.25][2.26][2.27]}
+
+[2.28]
+[2.29]
+[2.30]{Introduction}
+[2.31]{}
+[2.32]
+[2.33]
+
+Various physical systems often demonstrate similarity in the underlying physical phenomena, which drives an idea of exploiting well controllable systems for mimicking properties of the less controllable and the less accessible ones.
+A spectacular example is the similarity between electronic and photonic systems[2.34]. 
+It is therefore not surprising that with the fast rise of topological insulators in the context of electronic systems[2.35], topological ideas were 
+also widely explored in photonic systems. Among the pioneering works are the  
+study of chiral edge states in photonic crystals[2.36] where the Berry curvature for photonic bands was introduced by analogy of electronic systems, photonic analogues of Hall effect[2.37] and topological insulators[2.38], as well as a solid number of both theoretical and experimental works demonstrating the effects of non-trivial topology in electromagnetic systems in the frequency range from radio to optics[2.39]. 
+
+Despite this success, however, optical circuits are not well suited for nonlinear effects to be directly incorporated while realization of the time-reversal symmetry breaking, a common ingredient of topological phases, remains challenging. 
+In this respect, systems based on exciton-polaritons[2.40], quasi-particles originating from the strong coupling of the quantum well-excitons and cavity photons in microcavities, are at advantage. 
+Being hybrid light-matter excitations, their photonic properties allow an effective control with the use of optical potential profile, while their excitonic nature brings significant interactions and a strong nonlinear response[2.41]. 
+Moreover, due to the exciton spin, the time-reversal symmetry of an exciton-polariton system can be conveniently broken by application of the external magnetic field. This makes polaritonic systems attractive both from the point of view of applications in prospective polaritonic devices[2.42] and as a unique laboratory to simulate topological properties of matter.
+
+There had been several proposals for creating topologically nontrivial states of exciton-polaritons. In the last few years, emergence of the non-trivial topology and existence of the topologically protected edge states in polaritonic lattices of different geometry were addressed in a number of works[2.43].
+[2.44]
+Currently, the focus of attention in the study of the effects of non-trivial topology shifts towards systems with nonlinearity, where exciton-polaritons, due to their unique properties, play a special role. Among recent works where an interplay of nonlinear effects with nontrivial topology has been explored are studies of self-localized states[2.45], self-induced topological transitions[2.46], topological Bogoliubov excitations[2.47], 
+suppression of topological phases[2.48], vortices in lattices[2.49], spin-Meissner states in ring resonators[2.50], solitons in lattices[2.51] and dimer 
+chains[2.52]. 
+In Ref.[2.53] it was observed that in a certain range of parameters kagome lattice possesses a highly nonlinear dispersion of topological edge state, with a well pronounced minimum and maximum inside the bulk gap. In the present paper we show that such peculiar dispersion leads to appearance of nonlinear edge excitations in the form of solitons. Such excitations turn out to be true solitons as opposed to solitary waves for which the requirement of restoring shape upon collision is waived[2.54]. In contrast to solitons in the honeycomb lattice[2.55] 
+velocity of topological edge state solitons in kagome lattice can take values in a wide range from positive to negative 
+depending on the choice of quasimomenta of the constituting topological edge modes.
+[2.56]
+[2.57]
+
+[2.58]
+[2.59]{Theory of nonlinear topological edge excitations in a 2D lattice}
+[2.60]
+
+To study nonlinear topological edge excitations we employ the mean field approximation. We consider a strip of kagome lattice with [2.61] sites in its unit cell, see Fig.[2.62]a, and introduce vectors [2.63] composed of the spinor components [2.64] at each site of the [2.65]th unit cell, where index [2.66] enumerates the unit cells in the [2.67] direction (see Fig.[2.68]a). 
+Then, the time evolution of the [2.69]th vector is described by
+the coupled system of equations
+[1.1] 
+where [2.70] is the diagonal matrix with elements
+[2.71]
+parameter [2.72], and 
+[2.73] are normalized to [2.74] 
+[2.75]
+with [2.76] being the total number of polaritons in the system.
+Matrices [2.77], satisfy [2.78]
+for all [2.79], [2.80], which ensures hermiticity of the Hamiltonian.
+In absence of interactions the stationary states of[2.81] are Bloch waves [2.82] where [2.83] is the spatial extent of the unit cell in [2.84] direction and [2.85] are [2.86]
+solutions to the eigenvalue problem
+[1.2]
+where [2.87] enumerates the energy bands. Because the operator in the left hand side of[2.88] is self-adjoint, [2.89] forms an orthonormal set, 
+[2.90]
+Let [2.91] is the band index corresponding to one of the TEM dispersions as in Fig.[2.92]b.
+Then, solution to the full problem[2.93] can be sought in the form of a wavepacket centered around [2.94],
+[1.3]
+where we assumed that a single TEM with [2.95] and amplitude [2.96] dominates other modes.
+For the amplitude [2.97] 
+to be uniquely defined, one needs to fix a gauge of the basis vectors [2.98]. It is always possible to choose a gauge such that the equation
+[1.4]
+is satisfied at least within an 
+[2.99]
+open interval of [2.100] smaller than the Brillouin zone. While the real part of[2.101] is guaranteed by the normalization, the imaginary part of[2.102] can be forced by the [2.103] rotation of eigenvector phases. 
+Substituting[2.104] to[2.105] and forming a scalar product with [2.106] we get
+[1.5]
+for all [2.107]. 
+By differentiating[2.108] we obtain
+[1.6]
+The gauge condition[2.109] 
+[2.110]
+implies that the derivative [2.111] comprises excitations of all other bands but [2.112] (in general, the bulk bands and the other TEM branches). In particular, at [2.113],
+[1.7]
+Expanding [2.114] into the Maclaurin series in [2.115]
+and using[2.116] and[2.117], we get
+[1.8]
+Assuming the excitation of bands [2.118] is weak, which is guaranteed by the large energy separation of the band [2.119] from the rest of the bands, we can neglect
+the contribution of the bulk bands in[2.120].
+Decomposing [2.121] into the Maclaurin series up to the 2nd order in [2.122] and integrating, the Eq.[2.123] is reduced to
+[1.9]
+where 
+[2.124]
+is a function of time and continuous variable [2.125], and 
+[2.126]
+is the effective nonlinearity parameter. For [2.127], which is the usual case for polariton interactions[2.128], [2.129] can be proved to take non-negative values only, [2.130], irrespective of~[2.131], thus describing the defocusing nonlinearity.
+Finally, 
+[1.10]
+
+Using[2.132], we can analyze the validity of the applied approximation. 
+Coefficients [2.133] can be calculated from the standard perturbation theory[2.134], which gives
+[1.11]
+Thus, we can estimate
+[1.12]
+where we introduced the energy separation from the bulk modes [2.135]
+and used completeness of the basis set. 
+The last term in[2.136] can be estimated using the exact form[2.137] for the operator [2.138] keeping only the hopping terms with conserved circular polarization in the original Hamiltonian.
+This yields an estimate [2.139].
+Defining the average
+[2.140]
+and using[2.141],[2.142] and [2.143] we can obtain the criteria for validity of[2.144] and[2.145],
+[1.13]
+which is a restriction on the extent of wavepacket in k-space for a given energy separation from the bulk modes.
+[2.146]
+Note, that an obvious requirement of the independence of[2.147] of the choice of the kagome strip unit cell (note, that the choice of the unit cell in Fig.[2.148] is not unique) requires either a weak dependence of [2.149] on [2.150] (that is, a small [2.151]), or, a strong localization of the edge mode 
+near the boundary within the first few rows (ensured by large [2.152]).
+
+[2.153]
+[2.154]
+[2.155]
+[2.156]
+[2.157]
+[2.158]
+
+[1.14]
+
+[1.15]

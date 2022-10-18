@@ -1,0 +1,209 @@
+\documentclass[
+aps,
+prl,
+groupedaddress,
+superscriptaddress,
+floatfix,
+%showpacs,
+%showkeys,
+%draft,
+%preprint,
+%reprint,
+%twocolumn,
+notitlepage
+]{revtex4-1}
+
+
+\usepackage{graphicx}% Include figure files
+%\usepackage[dvips]{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{braket}
+%\usepackage{pscyr}
+%\usepackage[utf8]{inputenc} % needed for Cyrillic fonts
+%\usepackage[T2A]{fontenc} % needed for Cyrillic fonts
+\usepackage{hyperref} % hypertext capabilities
+\usepackage{subfigure}
+%\usepackage{dcolumn} % Align table columns on decimal point
+\usepackage{bm} % bold math
+\usepackage{mathtools} % dcases (uncompressed fractions)
+\usepackage{float}
+
+\usepackage{placeins}
+
+
+\usepackage[utf8]{inputenc} % needed for Cyrillic fonts
+\usepackage[T1,T2A]{fontenc} % needed for Cyrillic fonts
+\usepackage[english,russian]{babel} 
+
+\usepackage{float}
+
+% My definitions
+\def\sech{{\rm sech}}
+\def\rot{{\rm rot}}
+\def\div{{\rm div}}
+\def\arcsinh{{\rm arcsinh}}
+\def\Re{{\rm Re\,}}
+\def\Im{{\rm Im\,}}
+\def\arccot{{\rm arccot}}
+\newcommand{\p}{\partial}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\br}{\break}
+\newcommand{\om}{\omega}
+\newcommand{\ph}{\varphi}
+\newcommand{\nn}{\nonumber}
+\newcommand{\ka}{\kappa}
+\newcommand{\al}{\alpha}
+\newcommand{\la}{\lambda}
+\newcommand{\be}{\beta}
+
+\begin{document}
+
+\title{Erforschung nichtlinearer topologischer Zustände von Materie mit Exziton-Polaronen: Randsolitonen im Kagome-Gitter}
+
+\affiliation{ITMO University, St. Petersburg 197101, Russia}
+[2.1]
+[2.3]
+
+[2.4]
+[2.5]
+[2.6]
+
+[2.7]
+[2.8]
+[2.9]
+
+[2.10]
+[2.11]
+[2.12]
+
+[2.13]
+[2.14]
+[2.15]
+
+[2.16]
+
+[2.17]
+Materie in nicht-trivialen topologischen Phasen hat einzigartige Eigenschaften, wie die Unterstützung von unidirektionalen Kantenmoden an der Grenzfläche. Das Vorhandensein dieses Musters führt zu den wunderbaren Eigenschaften topologischer Isolatoren – Materialien, die im Körper isolieren, aber an der Oberfläche elektrisch leitend sind, sowie zu vielen Photonen- und Polaronanaloga, die in jüngster Zeit vorgeschlagen wurden. Wir zeigen, dass Exziton-Polaron-Flüssigkeiten in nicht-trivialen topologischen Phasen im Kagome-Gitter nichtlineare Anregungen in Form von Solitonen unterstützen, die aus topologischen Kantenmodenpaketen bestehen-topologischen Kantensolitonen. Unsere theoretischen und numerischen Ergebnisse zeigen, dass helle Solitonen, dunkle Solitonen und graue Solitonen nahe der Gittergrenze auftreten. Im dispersiven parabolischen Bereich können Solitonen durch Hüllkurvenfunktionen beschrieben werden, die die nichtlineare Schr [2.18] "Odinger-Gleichung erfüllen.
+Während der Kollision treten mehrere topologische Randsolitonen ohne Verzerrung auf, was beweist, dass sie echte Solitonen sind, anstatt solche Anforderungen für Einzelwellen zu haben. Wichtig ist, dass Kagome-Gitter im Gegensatz zu anderen Arten von abgeschnittenen Gittern topologische Kantenmodi mit einer Gruppengeschwindigkeit von Null unterstützen. Dies gibt eine bessere Kontrolle über die Geschwindigkeit des Solitons, die sowohl positive als auch negative Werte annehmen kann, abhängig von der Wahl der topologischen Kantenmuster, die sie bilden.
+[2.19]
+
+
+[2.20]
+[2.21]
+[2.22]
+
+[2.23]
+{[2.24] [2.25] [2.26] [2.27]}
+
+[2.28]
+[2.29]
+[2.30]{Einleitung}
+[2.31]{}
+[2.32]
+[2.33]
+
+Verschiedene physikalische Systeme neigen dazu, Ähnlichkeiten in zugrunde liegenden physikalischen Phänomenen zu zeigen, was zu der Idee führte, gut kontrollierbare Systeme zu entwickeln, um Systeme zu simulieren, die unkontrollierbar und unzugänglich sind.
+Ein spektakuläres Beispiel ist die Ähnlichkeit zwischen Elektronen- und Photonensystemen [2.34].
+Mit dem raschen Aufkommen topologischer Isolatoren in elektronischen Systemen [2.35] ist daher die topologische Idee
+Es hat auch eine breite Palette von Anwendungen in photonischen Systemen. Zu den wegweisenden Arbeiten gehören
+Untersuchungen von chiralen Randzuständen in photonischen Kristallen [2.36], in denen die Berry-Krümmung des Photonenbandes durch Analogien elektronischer Systeme eingeführt wurde, Photonenanalogien des Hall-Effekts [2.37] und topologische Isolatoren [2.38] sowie zahlreiche theoretische und experimentelle Arbeiten, die den Einfluss nichttrivialer Topologien im elektromagnetischen Bereich vom Radio bis zum optischen Frequenzbereich belegen [2.39].
+
+Trotz dieses Erfolgs ist der optische Pfad jedoch nicht geeignet, nichtlineare Effekte direkt einzuführen, und das Erreichen eines zeitinvertierten symmetrischen Bruchs (ein üblicher Bestandteil der topologischen Phase) bleibt eine Herausforderung.
+In dieser Hinsicht haben Systeme, die auf Exziton-Polaronen [2.40] basieren, Vorteile. Exziton-Polaronen sind Quasiteilchen, die durch die starke Kopplung von Quantentopf-Exzitonen mit Hohlraumphotonen in Mikrohohlräumen erzeugt werden.
+Als Licht-Materie-Hybridanregung ermöglichen ihre photonischen Eigenschaften eine effiziente Steuerung mit Hilfe optischer Potentialverteilungen, während ihre Exzitoneneigenschaften signifikante Wechselwirkungen und starke nichtlineare Reaktionen bewirken [2.41].
+Zusätzlich kann aufgrund des Vorhandenseins von Exzitonenspins das angelegte Magnetfeld die zeitliche Inversionssymmetrie des Exziton-Polarisationssubsystems leicht aufbrechen. Das macht polarisierte Systeme attraktiv, sowohl für zukünftige polarisierte Bauelemente [2.42] als auch als einzigartiges Labor zur Simulation topologischer Eigenschaften von Materie.
+
+Es wurden mehrere Vorschläge zur Etablierung topologischer nichttrivialer Zustände von Exziton-Polaronen gemacht. In den letzten Jahren wurde das Auftreten nichttrivialer Topologien und das Vorhandensein topologisch geschützter Randzustände in Polarongittern mit unterschiedlichen Geometrien vielfach untersucht [2.43].
+[2.44]
+Gegenwärtig verlagert sich der Fokus der Forschung zu nichttrivialen topologischen Effekten auf nichtlineare Systeme, und Exziton-Polaronen spielen aufgrund ihrer einzigartigen Eigenschaften eine besondere Rolle in nichtlinearen Systemen. In den letzten Jahren umfassen Studien zur Wechselwirkung zwischen nichtlinearen Effekten und nicht-trivialen Topologien selbstlokale Zustände [2.45], selbstinduzierte topologische Übergänge [2.46], topologische Bogoliubov-Anregung [2.47],
+Topologische Phase [2.48], Wirbel im Kristallgitter [2.49], Spin-Meissner-Zustände im Ringhohlraum [2.50], Solitonen im Kristallgitter [2.51] und Unterdrückung von Dimeren
+Kette [2.52].
+In [2.53] wurde beobachtet, dass das Kagome-Gitter innerhalb eines bestimmten Parameterbereichs eine stark nichtlineare topologische Randzustandsdispersion aufweist und es offensichtliche Minimal- und Maximalwerte in der Volumenlücke gibt. In dieser Arbeit zeigen wir, dass diese spezielle Dispersion zu nichtlinearen Kantenanregungen in Form von Solitonen führt. Das Ergebnis einer solchen Anregung sind echte Solitonen und keine Einzelwellen, für die die Anforderung der Formwiederherstellung im Kollisionsfall entfällt [2.54]. Im Gegensatz zu den Solitonen im Wabengitter [2.55]
+Die Geschwindigkeit der topologischen Randzustands-Solitonen im Kagome-Gitter kann in einem weiten Bereich von positiv bis negativ angegeben werden.
+Es hängt von der Wahl der Quasi-Mongolen ab, die den topologischen Kantenmodus
+[2.56]
+[2.57]
+
+[2.58]
+[2.59]{Theorie der nichtlinearen topologischen Kantenanregung in zweidimensionalen Gittern}
+[2.60]
+
+Um die nichtlineare topologische Kantenanregung zu untersuchen, verwenden wir die mittlere Feldnäherung. Wir betrachten die Kagome-Gitterstreifen mit [2.61] Stellen in ihren Einheitszellen, siehe Abbildung [2.62]a, und führen an jeder Stelle der [2.65] Einheitszelle einen Vektor [2.63] ein, der aus Spinkomponenten [2.64] besteht, wobei der Index [2.66] die Einheitszellen in Richtung [2.67] aufzählt (siehe Abbildung [2.68]a).
+Dann wird die zeitliche Entwicklung des Vektors [2.69] durch
+Gekoppelte Gleichungen
+[1.1]
+Wobei [2.70] eine diagonale Matrix mit Elementen ist
+[2.71]
+Parameter [2.72] und
+[2.73] Normalisiert auf [2.74]
+[2.75]
+Wobei [2.76] die Gesamtzahl der Polaronen im System ist.
+Matrix [2.77], erfüllt [2.78]
+Für alle [2.79], [2.80] garantiert dies die hermitische Natur des Hamiltonschen Operators.
+Ohne Wechselwirkung ist der stationäre Zustand von [2.81] die Bloch-Welle [2.82], wobei [2.83] der Bereich des Einheitszellenraums in [2.84] -Richtung und [2.85] [2.86] ist.
+Lösungen für Eigenwertprobleme
+[1.2]
+Unter ihnen listet [2.87] das Energieband auf. Da der Operator auf der linken Seite von [2.88] selbstadjunkt ist, bildet [2.89] eine orthogonale Menge,
+[2.90]
+Sei [2.91] der Bandindex, der einer TEM-Dispersion in Abbildung [2.92] b entspricht.
+Die Lösung des vollständigen Problems [2.93] kann dann in Form eines Wavepakets um [2.94] gesucht werden,
+[1.3]
+Unter diesen nehmen wir an, dass ein einziges TEM mit [2.95] und einer Amplitude [2.96] andere Modi dominiert.
+Für die Amplitude [2.97]
+Für eine eindeutige Definition ist es notwendig, eine Spezifikation des Basisvektors [2.98] zu bestimmen. Es ist immer möglich, eine Spezifikation zu wählen, so dass die Gleichung
+[1.4]
+Zumindest in
+[2.99]
+Das offene Intervall [2.100] ist kleiner als das Brillouin-Gebiet. Wenn die Normalisierung den Realteil von [2.101] garantiert, kann der Imaginärteil von [2.102] durch [2.103] Drehung der Phase des Eigenvektors erzwungen werden.
+Ersetzen Sie [2.104] in [2.105] und bilden Sie ein Skalarprodukt mit [2.106].
+[1.5]
+Für alle [2.107].
+Durch Differenzierung [2.108] erhalten wir
+[1.6]
+Spezifikationsbedingungen [2.109]
+[2.110]
+Das bedeutet, dass die Ableitung [2.111] die Anregung für alle anderen Bänder außer [2.112] enthält (in der Regel die Volumenbande und andere TEM-Zweige). Insbesondere in [2.113],
+[1.7]
+Erweitern Sie [2.114] in [2.115] auf die Maclaurin-Reihe
+Mit [2.116] und [2.117] erhalten wir
+[1.8]
+Unter der Annahme, dass die Anregung des Energiebandes [2.118] schwach ist, was durch die große energetische Trennung des Energiebandes [2.119] von den übrigen Energiebändern gewährleistet ist, können wir ignorieren
+[2.120] Der Beitrag der Körpergürtel.
+[2.121] wird in [2.122] in die Maclaurin-Reihe zweiter Ordnung zerlegt und integriert, und die Gleichung [2.123] wird auf
+[1.9]
+Wo
+[2.124]
+Ist eine Funktion und stetige Variable der Zeit [2.125], und
+[2.126]
+Ist ein gültiger nichtlinearer Parameter. Für den üblichen Fall [2.127] der Polaronwechselwirkung [2.128] kann gezeigt werden, dass [2.129] nur nicht-negative Werte [2.130] nimmt und~[2.131] nicht berücksichtigt, wodurch die defokussierte Nichtlinearität beschrieben wird.
+Endlich,
+[1.10]
+
+Mit [2.132] können wir die Gültigkeit der angewandten Approximation analysieren.
+Der Koeffizient [2.133] kann aus der Standardstörungstheorie [2.134] berechnet werden, die
+[1.11]
+Daher können wir abschätzen,
+[1.12]
+Wir haben die Energietrennung aus dem Phantom eingeführt [2.135]
+Und verwenden Sie die Vollständigkeit des Basissatzes.
+Der letzte Term im Artikel [2.136] kann durch die exakte Form [2.137] des Operators [2.138] geschätzt werden, der im ursprünglichen Hamilton-Operator nur den Sprungterm für die Erhaltung der Zirkularpolarisation beibehält.
+Daraus ergibt sich eine Schätzung [2.139].
+Definieren Sie den Durchschnitt
+[2.140]
+Mit [2.141], [2.142] und [2.143] können wir die Gültigkeitskriterien von [2.144] und [2.145] erhalten.
+[1.13]
+Dies ist eine Einschränkung der Reichweite des Wellenpakets im K-Raum, wenn die Energie vom Phantom getrennt ist.
+[2.146]
+Beachten Sie, dass die offensichtliche Anforderung der [2.147] Unabhängigkeit der Auswahl von Kagome-Streifeneinheitszellen (beachten Sie, dass die Auswahl von Einheitszellen in Abbildung [2.148] nicht eindeutig ist) eine schwache Abhängigkeit von [2.150] erfordert (dh eine kleine [2.151]), oder eine starke Lokalität des Kantenmusters.
+In der Nähe der Grenze der vorangegangenen Zeilen (durch die große [2.152] gesichert).
+
+[2.153]
+[2.154]
+[2.155]
+[2.156]
+[2.157]
+[2.158]
+
+[1.14]
+
+[1.15]
